@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>SEG 59 956: Boundary Stone mentioning Zeus Alastoros</title>
+                <editor>Chloe Morris</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority></authority>
+                <idno type="filename"></idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>SEG</repository>
+                        <idno>59 956</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>small boundary stone, <material>white marble</material>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>description of letters, possibly including <height>letter-heights</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Thasos</origPlace>
+                            <origDate>Late 5th/early 4th c. BC.</origDate>
+                        </origin>
+                        <provenance type="found">Found in the 1962/1963 excavations at Evraiokastro.
+                        </provenance>
+                        <provenance type="observed">Modern location(s) (if different from repository, above)
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="photograph of text or monument"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve">
+                <ab>
+                    <lb n="1"/>v <persName type="divine" key="Zeus">Διὸς</persName> v 
+                    <lb n="2"/><persName type="epithet" key="Alastoros, Elasteros">Ἀλαστόρου</persName>  
+                    <lb n="3"/><persName type="epithet" key="Patroios">Πατρώιου</persName>
+                    <lb n="4"/><name type="group" key="Peleidai">Πηλειδέων</name>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p>external apparatus criticus (if applicable)</p>
+            </div>
+            <div type="translation">
+                <p>translation(s)</p>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <p>L. Robert, Bulletin Épigraphique in Revue des Études Grecques (1967). 
+                    C. Rolley, Bulletin de correspondance hellénique 89 (1965).</p>
+            </div>
+        </body>
+    </text>
+</TEI>

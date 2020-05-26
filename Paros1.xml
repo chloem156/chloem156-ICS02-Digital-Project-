@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>CGRN 9: Sacrificial Regulation on an Altar mentioning Zeus Elasteros</title>
+                <editor>Chloe Morris</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority></authority>
+                <idno type="filename"></idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>CGRN</repository>
+                        <idno>9</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>small plaque or stele, <material>marble</material>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>description of letters, possibly including <height>letter-heights</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Paros</origPlace>
+                            <origDate>500-475 BC.</origDate>
+                        </origin>
+                        <provenance type="found"> Findspot and circumstances/context
+                        </provenance>
+                        <provenance type="observed">Modern location(s) (if different from repository, above)
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="photograph of text or monument"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve">
+                <ab>
+                    <lb n="1"/><name type="structure">βομὼς</name> <name type="deity" key="Zeus">Διὼς</name> <persName type="epithet" key="Elasteros, Alastoros">Ἐ<supplied reason="lost">λάστε</supplied>-    
+                    <lb n="2" break="no"/>ρω</persName> το̑ν ἀπὼ <name type="group" key="Mandrothemis">Μ<supplied reason="lost">αν</supplied>δρο- <space extent="unknown" unit="character"/>
+                    <lb n="3" break="no"/> θέμιος</name>· μέλιτι  <space extent="unknown" unit="character"/>
+                    <lb n="4"/>σπένδεται <space extent="unknown" unit="character"/>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p>external apparatus criticus (if applicable)</p>
+            </div>
+            <div type="translation">
+                <p>Altar of Zeus E[laste]ros, of those from (the group) of Mandrothemis. A libation is made with honey. </p>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <p>Translation by J. Carbon. CGRN 9, l. x-x (http://cgrn.philo.ulg.ac.be/file/9/).</p>
+            </div>
+        </body>
+    </text>
+</TEI>
